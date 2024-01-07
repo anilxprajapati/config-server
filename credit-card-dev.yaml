@@ -16,3 +16,15 @@ management:
 info:
   app:
     name: Bank
+
+spring:
+   datasource:
+    url: jdbc:mysql://localhost:3306/card
+    username: root
+    password: aneelap
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+#    database-platform: org.hibernate.dialect.MySQL8Dialect
